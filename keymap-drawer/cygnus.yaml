@@ -113,7 +113,7 @@ layers:
   funtion:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+ $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - R
   - F5
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F7
