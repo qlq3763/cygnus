@@ -30,12 +30,12 @@ layers:
   - {t: ',', s: <}
   - .
   - {t: /, h: working-macro, s: '?'}
-  - {t: LC(D), h: '&m1'}
+  - {t: Ctl+ D, h: '&m1'}
   - {t: '$$mdi:keyboard-return$$', h: mouse+media}
   - {t: '$$mdi:keyboard-space$$', h: num+fun}
   - {t: '$$mdi:backspace$$', h: shift}
   - {t: '$$mdi:keyboard-space$$', h: mouse+media}
-  - {t: LC(D), h: '&m1'}
+  - {t: Ctl+ D, h: '&m1'}
   num+fun:
   - {t: '2', s: '@'}
   - '3'
@@ -84,20 +84,20 @@ layers:
   - (
   - )
   - _
-  - LS(LEFT)
-  - LS(DOWN)
-  - LS(RIGHT)
-  - LS(UP ARROW)
-  - LS(PG UP)
+  - Sft+ $$mdi:arrow-left-bold$$
+  - Sft+ $$mdi:arrow-down-bold$$
+  - Sft+ $$mdi:arrow-right-bold$$
+  - Sft+ $$mdi:arrow-up-bold$$
+  - Sft+ PG UP
   - $
   - '%'
   - ^
   - ':'
   - '"'
-  - LS(HOME)
-  - RS(DELETE)
-  - LS(END)
-  - LS(PG DN)
+  - Sft+ HOME
+  - Sft+ $$mdi:backspace-reverse-outline$$
+  - Sft+ END
+  - Sft+ PG DN
   - '~'
   - '!'
   - '@'
@@ -112,7 +112,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   funtion:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - LC(UP ARROW)
+  - Ctl+ $$mdi:arrow-up-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F5
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -121,8 +121,8 @@ layers:
   - F9
   - F10
   - F11
-  - LC(A)
-  - LC(DOWN)
+  - Ctl+ A
+  - Ctl+ $$mdi:arrow-down-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -131,7 +131,7 @@ layers:
   - F6
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F12
-  - LC(Z)
+  - Ctl+ Z
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -142,8 +142,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - LS(LA(D))
-  - LS(LG(S))
+  - Sft+Alt+ D
+  - Sft+Gui+ S
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -243,12 +243,12 @@ layers:
   - '&m4'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - LC(D)
+  - Ctl+ D
   - '&m1'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - LC(D)
+  - Ctl+ D
   - '&m1'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
