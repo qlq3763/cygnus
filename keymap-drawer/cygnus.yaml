@@ -10,17 +10,17 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: S, h: LEFT WIN}
-  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: F, h: funtion}
-  - {t: G, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: H, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: J, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: K, h: RIGHT WIN}
-  - {t: L, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:keyboard-return$$', h: num+fun}
-  - {t: Z, h: working-macro}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - {t: '7', s: '&'}
+  - Z
   - X
   - C
   - V
@@ -29,13 +29,13 @@ layers:
   - M
   - {t: ',', s: <}
   - .
-  - {t: /, h: working-macro, s: '?'}
-  - {t: Ctl+ D, h: '&m1'}
-  - {t: '$$mdi:keyboard-return$$', h: mouse+media}
-  - {t: '$$mdi:keyboard-space$$', h: num+fun}
-  - {t: '$$mdi:backspace$$', h: shift}
-  - {t: '$$mdi:keyboard-space$$', h: mouse+media}
-  - {t: Ctl+ D, h: '&m1'}
+  - {t: '8', s: '*'}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - {t: '5', s: '%'}
+  - '6'
   num+fun:
   - {t: '2', s: '@'}
   - '3'
@@ -56,7 +56,7 @@ layers:
   - {t: '5', s: '%'}
   - '6'
   - {t: ;, s: ':'}
-  - {t: '''', s: '"', type: held}
+  - {t: '''', s: '"'}
   - HOME
   - $$mdi:backspace-reverse-outline$$
   - END
@@ -69,7 +69,7 @@ layers:
   - {t: ']', s: '}'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '=', s: +}
-  - {t: \, s: '|', type: held}
+  - {t: \, s: '|'}
   - {t: '0', s: )}
   - .
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -107,7 +107,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - +
   - '|'
-  - {t: ), type: held}
+  - )
   - '>'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   funtion:
@@ -124,7 +124,7 @@ layers:
   - Ctl+ A
   - Ctl+ $$mdi:arrow-down-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F4
   - F5
@@ -179,10 +179,10 @@ layers:
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - bluetooth
   - bluetooth
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   bluetooth:
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -216,10 +216,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   working-macro:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -242,16 +242,16 @@ layers:
   - '&m3'
   - '&m4'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - Ctl+ D
-  - '&m1'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+ D
   - '&m1'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+ D
+  - '&m1'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
