@@ -83,68 +83,6 @@
         };
     };
 
-    macros {
-        left_bl: lbl {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&bootloader>;
-            label = "lbl";
-        };
-
-        m1: m1 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_wait_time 400>,
-                <&kp LC(S) &kp A &kp N5 &kp ENTER>;
-
-            label = "m1";
-        };
-
-        m2: m2 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp S &kp N2 &kp RET>;
-            label = "M2";
-        };
-
-        m3: m3 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp E &kp N2 &kp RET>;
-            label = "M3";
-        };
-
-        m4: m4 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp L &kp N2 &kp RET>;
-            label = "M4";
-        };
-
-        m5: m5 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&kp Q &kp N2 &kp RET>,
-                <&macro_wait_time 200>,
-                <&kp S &kp D &kp SPACE &kp RET>;
-
-            label = "M5";
-        };
-
-        m6: m6 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&kp F &kp SPACE &kp RET>,
-                <&macro_wait_time 200>,
-                <&kp F &kp F &kp SPACE &kp RET>;
-
-            label = "M6";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
