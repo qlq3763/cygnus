@@ -88,10 +88,10 @@
 
         default {
             bindings = <
-&kp Q           &kp W           &kp E         &kp R             &kp T      &kp Y        &kp U              &kp I            &kp O            &kp P
-&hr LEFT_GUI A  &hr LEFT_ALT S  &hr LCTRL D   &hr LEFT_SHIFT F  &kp G      &kp H        &hr RIGHT_SHIFT J  &hr RCTRL K      &hr RIGHT_ALT L  &hr RIGHT_GUI SEMI
-&kp Z           &kp X           &kp C         &kp V             &kp B      &kp N        &kp M              &kp COMMA        &kp PERIOD       &kp SLASH
-                                &lt 3 ESCAPE  &lt 2 SPACE       &lt 1 TAB  &lt 1 ENTER  &lt 2 BACKSPACE    &kp RIGHT_SHIFT
+&kp Q           &kp W           &kp E        &kp R             &kp T      &kp Y        &kp U              &kp I        &kp O            &kp P
+&hr LEFT_GUI A  &hr LEFT_ALT S  &hr LCTRL D  &hr LEFT_SHIFT F  &kp G      &kp H        &hr RIGHT_SHIFT J  &hr RCTRL K  &hr RIGHT_ALT L  &hr RIGHT_GUI SEMI
+&kp Z           &kp X           &kp C        &kp V             &kp B      &kp N        &kp M              &kp COMMA    &kp PERIOD       &kp SLASH
+                                &none        &lt 2 SPACE       &lt 1 TAB  &lt 3 ENTER  &kp BACKSPACE      &none
             >;
         };
 
